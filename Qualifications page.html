@@ -4,12 +4,31 @@
         <title>
             Qualifications page
         </title>
+        <meta name = "viewport" content = "width=device-width, initial-scale=1">
         <style>
+            @media (min-width:500px){
+                body{
+                    background-image: url(10.jpg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    padding-left: 20px;
+                    margin-top: 50px;
+                }
+            }
+            @media (max-width:499px){
+                body{
+                    background-color: blue;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    padding-left: 20px;
+                    margin-top: 50px;
+                }
+            }
             table {
                 border: 2px solid black;
                 border-collapse: collapse;
                 width: 50%;
-                height: 50%;
+                /* height: 50%; */
             }
             th, td {
                 border: 1px solid black;
@@ -19,9 +38,49 @@
             th{
                 background-color:lightcoral;
             }
+            /* ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        li{
+            float: left;
+            width: 10%;
+            line-height: normal;
+        }
+        li a{
+            display: block;
+            color:white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover:not(.active){
+            background-color: #4caf50;
+        } */
+        button{
+                width: 110px;
+                height: 30px;
+                font-size: 15px;
+                background-color:darkred;
+                color: aliceblue;
+                position: relative;
+                float: center;
+            }
+            button:hover{
+                background-color:green;
+            }
+
         </style>
     </head>
     <body style="background-color:darkgray;">
+            <a href="About page.html"><button type="button">About</button></a>
+            <a href="Qualifications page.html"><button type="button">Qualifications</button></a>
+            <a href="Projects page.html"><button type="button">Projects</button></a>
+            <a href="Contact me Page.html"><button type="button">Contact</button></a>
+
         <h1>Academic details:</h1>
         <table>
             <tr>
@@ -74,7 +133,7 @@
             </tr>
         </table>
         <h1>Level of profiency of Technical skills:</h1>
-        <meta name = "viewport" content = "width=device-width, initial-scale=1">
+        
         <style>
             * {box-sizing: border-box}
             .container {
@@ -87,7 +146,7 @@
                 padding-bottom: 10px;
                 color:white;
             }
-            .python {width: 80%;background-color: darkslategray;}
+            .python {width: 80%;background-color: darkorange;}
             .Java {width:70%; background-color: green;}
             .Sql {width:83%; background-color: black;}
             .html { width:87%; background-color: red;}

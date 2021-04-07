@@ -4,8 +4,49 @@
         <title>
             Contact me Page
         </title>
+        <meta name = "viewport" content = "width=device-width, initial-scale=1">
     <style>
-        ul{
+          @media (min-width:500px){
+                body{
+                    background-image: url(6.jpg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    padding-left: 20px;
+                    margin-top: 50px;
+                }
+            }
+            @media (max-width:499px){
+                body{
+                    background-color: blue;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    padding-left: 20px;
+                    margin-top: 50px;
+                }
+            }
+        #hello{
+            font-size: 20px;
+            margin-left: 30px;
+
+        }
+        /* .fasak{
+            margin-left: 100px;
+        } */
+        #demo{
+            position: relative;
+            left: -10px;
+        }
+        button{
+                width: 110px;
+                height: 30px;
+                font-size: 15px;
+                background-color:darkred;
+                color: aliceblue;
+            }
+            button:hover{
+                background-color:green;
+            }
+        /* ul{
             list-style-type: none;
             margin: 0;
             padding: 0;
@@ -19,31 +60,40 @@
         }
         li a{
             display: block;
-            color: white;
+            color:white;
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
         }
         li a:hover:not(.active){
             background-color: #4caf50;
-        }
+        } */
     </style>
     </head>
     <body>
-        <ul>
-            <li>
-                <a href="About page.html">About Me</a>
-            </li>
-            <li>
-                <a href="Projects page.html"> My Projects </a>
-            </li>
-            <li>
-                <a href="Qualifications page.html">Qualifications</a>
-            </li>
-            <li>
-                <a href="Contact me Page.html">Contact me</a>
-            </li>
+            <a href="About page.html"><button type="button">About</button></a>
+            <a href="Qualifications page.html"><button type="button">Qualifications</button></a>
+            <a href="Projects page.html"><button type="button">Projects</button></a>
+            <a href="Contact me Page.html"><button type="button">Contact</button></a>
 
-        </ul>
+        
+        
+
+        <pre>                                   </pre>
+        <p style="color:yellow; font-size: 25px;">  Name    :       Faheed Muneer <br>
+            Phone No:  8143636041
+        </p>
+        <h1 style="color:wheat;font-size: 37px;font-weight: bolder;">Various ways to contact me:</h1>
+        <pre>                                    </pre>
+        <a style="padding-left: 200px;" href="https://github.com/FaheedMuneer"><img src="git.png" align="left" hspace="7"  height="63"></a>
+        <a class="fasak" href="https://www.linkedin.com/feed/"><img src="linkedin.png" align="left" hspace="7" height="63"></a>
+        <a class="fasak" href="https://www.hackerrank.com/dashboard?h_r=logo"><img src="hack.jfif" align="left" hspace="7" height="63"></a>
+        <a class="fasak" href="https://mail.google.com/mail/u/0/#inbox"><img src="gmail.jfif" align="left" hspace="7" height="63"></a>
+        <!-- <a id="hello" href="https://forms.gle/WL8AtcEVoBYzPFDY8">Google Form</a> -->
+        <pre>                          
+                                      
+                                       
+                                         </pre>
+        <iframe id="demo" src="https://docs.google.com/forms/d/e/1FAIpQLSdIeD8pXtBJSq01wjvPfcSPPkItIsBeS2NpXld0PhSlOkhZOw/viewform?embedded=true" width="600" height="750" frameborder="0" marginheight="0" marginwidth="0" align="left">Loading…</iframe>
     </body>
 </html>
